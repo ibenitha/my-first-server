@@ -1,13 +1,14 @@
 {
   "name": "my-first-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic Node.js HTTP server that acknowledges a user's visit.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "node --test"
   },
   "keywords": [],
-  "author": "",
+  "author": "ibenitha",
   "license": "ISC",
   "type": "commonjs"
 }
